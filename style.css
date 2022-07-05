@@ -1,0 +1,166 @@
+*{
+    font-family: 'Stoke', serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 55px;
+}
+/* 
+start header section
+ */
+
+.header-section{
+    background-image: url("images/shapes/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.header-img img{
+    width: 100%;
+    padding-top: 80px;
+}
+
+.header h1{
+    padding-top: 150px;
+    color: rgb(83, 79, 79);
+}
+
+.header p{
+    padding: 30px 0px;
+    font-size: 18px;
+}
+
+.header-text{
+    color: #FB934A;
+}
+
+.btn {
+    padding: 20px 40px;
+    background-image: radial-gradient(rgb(245, 73, 73), tomato);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 1px 10px 40px 0px tomato;
+}
+
+/* start about section */
+
+
+.about-section{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+   
+}
+
+.about-text p {
+    padding: 40px 0;
+}
+
+.image {
+    padding-top: 75px;
+}
+
+.image img{
+    width: 60%;
+}
+
+.about-text{
+    padding-top: 170px;
+}
+
+.about-text h2{
+    font-size: 40px;
+}
+
+.about-text h2,p{
+    color: gray;
+}
+
+
+/* start service section */
+
+.services{
+    padding: 80px 0px;
+}
+
+.service img{
+    width: 100%;
+    height: 300px;
+}
+
+.service-title{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.services h2{
+    font-size: 30px;
+    padding: 10px 0px;
+    padding: 20px 0px;
+}
+
+.service-section{
+    margin-left: 20px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 1px rgb(218, 204, 204);
+    border-radius: 30px;
+}
+
+
+/* start subscriptions section */
+
+.subscribers{
+    box-shadow: 0px 0px 10px 1px rgb(218, 204, 204);
+    margin-top: 80px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.subcribtions{
+    padding: 50px 30px;
+    margin-left: 100px;
+}
+
+.subcribtions h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+/* start footer section */
+
+.footer{
+    padding: 60px 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.footer-text{
+    color: #FB934A;
+    
+}
+
+.footer h2{
+    margin-bottom: 30px;
+}
